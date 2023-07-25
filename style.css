@@ -9,6 +9,8 @@ body {
 button {
     border: none;
     padding: 15px 20px;
+    touch-action: none;
+
 }
 img {
     background-color: transparent;
@@ -89,7 +91,6 @@ img {
     border: none;
     background: none;
   }
-
 
 @media (max-width : 800px) {
     .block {
